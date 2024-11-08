@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>w.w.w.J.d</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Livros teológicos</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Romance cristão</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Ficção cristã</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Devocional</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Bíblia</a>
+        </li>
+      </ul>
+      <img src="img/Pomba.svg" alt="Logo da ChristianBooks" class="container__imagem">
+      <h1 class="container__titulo"><b class="container__titulo--negrito">Christian</b>Books            </h1>
+    </div>
+
+   <ul class="opções">
+    <input type="checkbox" id="opções-menu" class="opções__botão">
+    <label for="opções-menu" class="opções__rotulo">
+      <li class="opções__item">Categorias</li>
+    </label>
+
+    <ul class="lista-menu">
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Livros teológicos</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Romance cristão</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Ficção cristã</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Devocional</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Bíblia</a>
+      </li>
+    </ul>
+
+    <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+    <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+   </ul>
+
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+         class="container__imagem container__imagem-transparente"></a>
+         <a href="#" class="container__link">
+          <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+          
+      </a>
+      <a href="#" class="container__link">
+          <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+          
+      </a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+    <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Mais vendidos</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/L1.svg" ></div>
+        <div class="swiper-slide"><img src="img/L2.svg"
+        ></div>
+        <div class="swiper-slide"><img src="img/L3.svg">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/L4.svg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/L7.svg" />
+        </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">Promoções do dia</h2>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/L4.svg"
+            ></div>
+        <div class="swiper-slide"><img src="img/L5.svg">
+        </div>
+        <div class="swiper-slide"><img src="img/L6.svg">
+        </div>
+        <div class="swiper-slide"><img src="img/L8.svg">
+        </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <!-- 1º linha -->
+      <div class="card__descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+          <h3 class="descrição__titulo">Autor do Mês</h3>
+          <h2 class="descrição__titulo-livro">C.S.Lewis</h2>
+          <p class="descrição__texto">Foi professor universitário, escritor, romancista, poeta, crítico literário, ensaísta e teólogo anglicano irlandês.
+          </p>
+        </div>
+        <!-- 2º coluna -->
+        <img src="img/C_S_Lewis.svg" class="descrição__imagem">
+      </div>
+
+      <!-- 2º linha -->
+      <div class="card__botões">
+        <!-- 1º coluna -->
+        <ul class="botões">
+          <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+          <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+        </ul>
+        <!-- 2º coluna -->
+        <a href="#" class="botões__ancora">Saiba mais</a>
+       </div>
+    </div>
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">LIVROS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Manso e humilde</a></li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Eu, meu pavio curto e Deus</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Bíblia de estudo</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Liturgia do ordinário</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">As andorinhas de um continente em chamas</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Cartas de um diabo a seu aprendiz</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Café com Deus Pai</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Aurora</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Sons de ferrugem e ecos de borboleta</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">O peso da glória</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <div class="contato__descrição">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">
+      Atualizações de e-books, novos livros, promoções e outros.                
+    </p>
+  </div>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Pequenos cristos</h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
